@@ -17,11 +17,11 @@
 1.流媒體視頻網站開發
 項目採用前後端解耦模式，架構按微服務佈置
 2.短鏈接地址開發
-将长链接地址处理成短链接，短地址可以重定向回原来地址，利用redis
+該項目用golang開發，利用redis自增器實現唯一ID，有hash處理URL。
 3.區塊鏈項目
 
-4.日誌監控系統開發
-docker佈置，藉助golang的併發性能，基於nginx，influxdb，grafana面板
+4.監控系統開發
+藉助golang的併發性能，基於nginx日誌，用docker部署influxdb和grafana來實現實時數據監控系統
 5.app項目
 該項目後臺採用php和laravel開發，前臺用go寫。
 6.电商购物车模块
